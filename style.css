@@ -12,16 +12,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-/*----------
- players section 
- -----------*/
-.all-players {
+.containers {
     margin-left: 180px;
     margin-right: 210px;
     margin-top: 70px;
     margin-bottom: 165px;
 }
+
+/* ------------------
+header section Style 
+----------------------*/
+
+
+/*----------
+ players section 
+ -----------*/
+
 
 .players {
     display: grid;
@@ -73,4 +79,50 @@ body {
     font-weight: 400;
 
 
+}
+
+
+/*------------
+ footer-section style 
+ --------------*/
+.all-footer-element {
+    height: 213px;
+    width: 483.87103271484375px;
+    margin-left: 295px;
+    margin-right: 271.13px;
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+
+}
+
+.all-footer-element .footer-log {
+    height: 110px;
+    width: 483.87103271484375px;
+
+}
+
+.all-footer-element .footer-log img {
+    width: 100%;
+}
+
+.social-media {
+    height: 32px;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 156.93551635742188px;
+    padding-right: 156.93551635742188px;
+}
+
+.copyright {
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-block-start: 0;
+    margin: 0;
+    padding: 0;
+    margin-inline-start: 123.94px;
+    margin-inline-end: 123.94px;
 }
